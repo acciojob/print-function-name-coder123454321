@@ -3,4 +3,6 @@ function AccioJob(){
 	console.log("hello");
 	
 }
-alart(functio.name);
+alert(AccioJob.name);
+
+
