@@ -1,8 +1,9 @@
 //your JS code here. If required.
 function AccioJob(){
-	console.log("hello");
-	
+	alert(arguments.callee.name);
 }
-alert(AccioJob.name);
+AccioJob()
+
+
 
 
