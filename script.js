@@ -1,9 +1,5 @@
-//your JS code here. If required.
-function AccioJob(){
-	alert(arguments.callee.name);
+function functionName() {
+    alert(arguments.callee.name);
 }
-AccioJob()
 
-
-
-
+functionName();
